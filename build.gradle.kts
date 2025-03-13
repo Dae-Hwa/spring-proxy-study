@@ -15,7 +15,7 @@ java {
 
 configurations {
 	compileOnly {
-		extendsFrom(configurations.annotationProcet adssor.get())
+		extendsFrom(configurations.annotationProcessor.get())
 	}
 }
 
